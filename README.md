@@ -18,7 +18,7 @@ To get a local copy up and running, follow these steps:
 **Clone the repository:**
 
 ```sh
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/aatanasova/Riskclick-assignment.git
 ```
 
 **Install dependencies:**
