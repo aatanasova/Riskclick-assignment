@@ -1,0 +1,17 @@
+// .vscode/settings.json
+{
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "tailwindCSS.experimental.classRegex": [
+      "tw`([^`]*)",
+      "tw\\('([^']*)",
+      "tw\\(\"([^\"]*)",
+      "tw\\(([^)]*)"
+    ],
+    "tailwindCSS.includeLanguages": {
+      "typescript": "javascript",
+      "typescriptreact": "javascript"
+    }
+  }
+  

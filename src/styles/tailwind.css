@@ -1,0 +1,84 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Custom classes */
+.page-container {
+  @apply min-h-screen bg-gray-100 flex items-center justify-center p-5;
+}
+
+.header {
+  @apply flex pb-2.5 font-poppins;
+}
+
+.header-left {
+  @apply float-left w-full;
+}
+
+.header-title {
+  @apply w-11/12 h-8 text-2xl font-medium leading-5 text-left text-[#334d62] pt-7.5 pb-10;
+}
+
+.header-subtitle {
+  @apply w-11/12 h-5 text-sm font-medium leading-6 text-left text-[#8ca0af];
+}
+
+.header-right {
+  @apply float-right w-12 h-12 mt-7.5 flex justify-center items-center gap-2 shadow-sm bg-white p-3.5 rounded-lg border border-[#d0d5dd];
+}
+
+.button-group {
+  @apply inline-flex font-poppins;
+}
+
+.button {
+  @apply flex justify-center items-center gap-2 px-4 py-2.5 border rounded-tl-md rounded-bl-md;
+}
+
+.button.active {
+  @apply bg-[#f1f3fd] border-[#a7b4f6];
+}
+
+.button.inactive {
+  @apply bg-white border-[#d0d5dd];
+}
+
+.card {
+  @apply w-full h-[568px] flex flex-col justify-start items-start shadow-md bg-white mt-2.5 mb-2 mx-0 rounded-lg border border-[#eaecf0];
+}
+
+.card-content {
+  @apply p-3 w-full;
+}
+
+.radio-group {
+  @apply flex items-center;
+}
+
+.radio {
+  @apply w-5 h-5 bg-white rounded-full border border-[#d0d5dd];
+}
+
+.radio-label {
+  @apply text-sm font-medium font-poppins leading-6 text-left text-[#334d62] pl-2 pr-10;
+}
+
+.search-container {
+  @apply relative;
+}
+
+.search-input {
+  @apply h-8 w-[264px] shadow-sm bg-white px-9 py-1.5 rounded-md border border-[#d0d5dd] mt-6.5 text-xs font-poppins text-left text-[#d0d5dd];
+}
+
+.search-icon {
+  @apply absolute left-3.5 top-8;
+}
+
+.filter-button {
+  @apply w-19 h-8 flex justify-center items-center gap-2 shadow-sm bg-white px-2 py-1.5 rounded border border-[#c6cfd7] mt-6.5 cursor-pointer;
+}
+
+.filter-button span {
+  @apply text-xs font-medium text-left text-[#40607a] font-poppins;
+}
